@@ -42,9 +42,10 @@
                   <v-card-text>
                     <v-row
                       justify="center"
-                      style="height: 1000px"
-                      class="mx-0"
-                    >{{toPray.pray}}
+                      style="height: 1000px;"
+                      class="mx-0 text-justify"
+                      v-html="toPray.pray"
+                    >
                     </v-row>
                   </v-card-text>
 
